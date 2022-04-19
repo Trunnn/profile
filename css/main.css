@@ -47,7 +47,7 @@ body {
 	-webkit-transform: translate(-50%, -30%);
 	-ms-transform: translate(-50%, -30%);
 	transform: translate(-50%, -30%);
-	background-image: url(../images/logo.png);
+	background-image: url(../images/logov1.png);
 	background-size: cover;
 }
 
@@ -313,6 +313,26 @@ body {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+	.navbar-expand-lg{
+		position: absolute!important;
+		top: 10px!important;	
+		z-index: 9999;
+		left: 010px!important;
+	}
+	.nav-link .text-white{
+		font-size: 10px!important;
+	}
+	.page_header{
+		height: 100%!important;
+		color: #fff;
+		position: relative;
+	}
+	.text_running_name{
+		display: none;
+	}
+	.header_content .job{
+		display: none;
+	}
 }
 #quote .quote_content {
 	position: absolute;
@@ -420,7 +440,7 @@ body {
 	
 }
 #awards .award_img {
-	background-image: url(../images/logo_dark.PNG);
+	background-image: url(../images/logov1_dark.png);
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -484,19 +504,19 @@ body {
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
 }
 #project .card_img_rinjani {
-	background-image: url(../images/rinjani_part.PNG);
+	background-image: url(../images/kangaroo.png);
 }
 #project .card_img_app_land {
-	background-image: url(../images/appland_app_part.png);
+	background-image: url(../images/tarot.png);
 }
 #project .card_img_event_classifield {
-	background-image: url(../images/event_classifield_part.png);
+	background-image: url(../images/thucpham.png);
 }
 #project .card_img_cms {
-	background-image: url(../images/cms_part.PNG);
+	background-image: url(../images/cms.jpg);
 }
 #project .card_img_small_shop {
-	background-image: url(../images/shop_part.PNG);
+	background-image: url(../images/shopping.png);
 }
 #project .card_overlay {
 	position: absolute;
@@ -623,5 +643,19 @@ body {
 }
 #btn_back_to_top.active {
 	display: block;
+}
+.award_item{
+	padding: 0px 20px;
+}
+.award-img{
+	height: 40px;
+}
+.award-text{
+	font-weight: 300;
+    font-size: 19px;
+    font-family: 'Cabin', sans-serif;
+    padding: 25px;
+    position: relative;
+    top: 5px;
 }
 /* End back to top icon */
